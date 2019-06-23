@@ -1,0 +1,26 @@
+.overlay {
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: rgba(45, 45, 51, 0.7);
+	z-index: 10;
+}
+
+.modal {
+	position: absolute;
+	background-color: rgba(255, 255, 255, 0.8);
+	top: 20px;
+	left: 50%;
+	padding: 10px;
+	border: 2px solid black;
+}
+
+.close {
+	cursor: pointer;
+}
+
+#title {
+	text-align: center;
+}
